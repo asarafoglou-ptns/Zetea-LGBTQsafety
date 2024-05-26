@@ -33,6 +33,4 @@ devtools::build()
 rm(list = ls())
 devtools::install()
 
-library(LGBTQsafety)
-sexuality_marriage_law("Colombia")
-gender_change_law("Saudi Arabia")
+

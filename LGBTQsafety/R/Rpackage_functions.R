@@ -109,3 +109,5 @@ discrimination_law = function(country) {
     return(paste("Country", country, "not available."))
   }
 }
+
+
