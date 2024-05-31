@@ -1,11 +1,16 @@
 Package: LGBTQsafety
-Title: Safety Calculator for LGTBQ+ Laws (One Line, Title Case)
+Title: Safety Calculator for LGTBQ+ Laws
 Version: 0.0.0.9000
 Authors@R: 
     person("Andreea", "Zetea", , "andreeazetea@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: This package allows users to track safety for LGBTQ+ individuals around the world. Users can enter a country name and learn which local laws apply to LGBTQ+ individuals, as well as receiving a safety rating for this country. There will also be an option to receive information about social acceptance of the LGBTQ+ community.
+Description: This package allows users to track safety for LGBTQ+ individuals 
+    around the world. Users can enter a country name and learn which local laws 
+    apply to LGBTQ+ individuals, as well as receiving a safety rating for this 
+    country. There will also be an option to receive information about social 
+    acceptance of the LGBTQ+ community.
 License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
+Imports: bslib, dplyr, shiny
