@@ -2,6 +2,7 @@
 
 export(discrimination_law)
 export(gender_change_law)
+export(open_app)
 export(read_and_calculate_data)
 export(safety_rating)
 export(sexuality_marriage_law)

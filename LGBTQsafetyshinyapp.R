@@ -31,7 +31,8 @@ ui <-page_fluid(
    
    card(
      card_header("Choose a country!"),
-     textInput("country", label = NULL)
+     textInput("country", label = NULL),
+     helpText("Countries should be capitalized and written with the correct English spelling")
    ),
    
    layout_columns(
@@ -55,7 +56,12 @@ ui <-page_fluid(
      card(
        card_header("Safety rating for LGBTQ+ individuals?"),
        textOutput("safe")
-       )
+       ),
+     
+     helpText("Please note: in countries with a very low safety rating, punishments
+             and prison sentences may apply. For more information, see this link:
+             https://en.wikipedia.org/wiki/LGBT_rights_by_country_or_territory"),
+     
      )
    )
  )
